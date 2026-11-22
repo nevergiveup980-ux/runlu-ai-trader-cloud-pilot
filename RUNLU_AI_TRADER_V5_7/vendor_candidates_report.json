@@ -1,0 +1,57 @@
+{
+  "schema_version": "4.3",
+  "research_date": "2026-11-06",
+  "candidates": [
+    {
+      "vendor": "EODHD",
+      "purpose": "Historical EOD research candidate",
+      "tsx_claim": "TSX/TSXV delayed and EOD via Quotemedia",
+      "feed": "Quotemedia (TSX/TSXV delayed)",
+      "reference_monthly_usd": "19.99",
+      "reference_plan": "EOD Historical Data All World",
+      "sources": [
+        "https://eodhd.com/financial-apis/our-data-sources-and-data-partners",
+        "https://eodhd.com/",
+        "https://eodhd.com/help/plans"
+      ],
+      "unknowns": [
+        "CSU.TO/VFV.TO symbol entitlement under selected plan",
+        "contract permission for automated AI research",
+        "applicable quote delay and timestamp semantics",
+        "actual subscription cost and tax at checkout",
+        "independent source contract and corporate-action adjustment"
+      ],
+      "status": "MANUAL_VERIFICATION_REQUIRED",
+      "verified_symbols": false,
+      "licensed_for_automated_use": false
+    },
+    {
+      "vendor": "Twelve Data",
+      "purpose": "Second Canadian data candidate",
+      "tsx_claim": "XTSE end-of-day; Cboe Canada NEOE real-time add-on",
+      "feed": "Cboe Canada NEO-L for Canada real-time add-on",
+      "reference_monthly_usd": null,
+      "reference_plan": "Plan plus optional Cboe Canada add-on; confirm quote",
+      "sources": [
+        "https://twelvedata.com/exchanges?country=Canada",
+        "https://support.twelvedata.com/en/articles/15303158-canadian-equities-market-data",
+        "https://twelvedata.com/pricing"
+      ],
+      "unknowns": [
+        "CSU and VFV instrument identifiers and feed-level coverage",
+        "actual combined plan and add-on cost",
+        "automated non-display use and redistribution rights",
+        "timestamp and venue-level quote interpretation",
+        "suitability for independent price cross-check"
+      ],
+      "status": "MANUAL_VERIFICATION_REQUIRED",
+      "verified_symbols": false,
+      "licensed_for_automated_use": false
+    }
+  ],
+  "live_api_tested": false,
+  "market_data_verified": false,
+  "trading_authorized": false,
+  "note": "Public marketing/docs claims are not a signed entitlement, a live quote test, or independent TSX execution-quality data.",
+  "sha256": "b267c14ac28a29b98cbadf04cc9a64430a6844728fa1c8a3391bda660659c353"
+}

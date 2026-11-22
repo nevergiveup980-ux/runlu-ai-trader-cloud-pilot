@@ -1,0 +1,33 @@
+{
+  "schema": "runlu.cloud-pilot.v1",
+  "run_date_utc": "2026-11-22",
+  "mode": "OFFLINE_DEMONSTRATION",
+  "data_source": "NO_MARKET_DATA",
+  "model_inference": "NOT_CONNECTED",
+  "broker_connected": false,
+  "real_trading_enabled": false,
+  "simulation_orders": [],
+  "starting_budget_usd": 2000,
+  "core_budget_usd": 1500,
+  "experimental_budget_usd": 500,
+  "cash_usd": 2000,
+  "positions": [],
+  "realized_pnl_usd": 0,
+  "unrealized_pnl_usd": null,
+  "status": "WAITING_FOR_LICENSED_MARKET_DATA",
+  "events": [
+    {
+      "role": "Scheduler",
+      "message": "定时演示任务已执行"
+    },
+    {
+      "role": "Data Gate",
+      "message": "未提供真实且获授权的行情；禁止生成买卖信号"
+    },
+    {
+      "role": "Risk",
+      "message": "模拟订单 0 笔；实盘交易始终关闭"
+    }
+  ],
+  "sha256": "025c4164d2ac4c616fe7bb111316af3bc53f58dad1e80136fd08c7bd5c12f789"
+}
